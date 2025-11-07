@@ -1,2 +1,3 @@
 Hello git community, this is my first repo
+enjoying git
 
