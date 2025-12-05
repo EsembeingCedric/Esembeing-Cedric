@@ -23,7 +23,8 @@ bold and italic: ***text***
 ```javascript
   console.log ("hello")
 ```
-this code was created by [Esembeingcedric] (http://example.com)   
+this code was created by [Esembeingcedric](http://example.com)   
+
 
 
 
