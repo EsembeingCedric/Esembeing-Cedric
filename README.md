@@ -9,6 +9,9 @@ favour
 italic: *text*  
 bold: **text**  
 bold and italic: ***text***  
+>this is cedric<
+>>how rae you<<
+>>
 
 
 
