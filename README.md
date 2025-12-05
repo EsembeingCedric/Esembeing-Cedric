@@ -10,14 +10,12 @@ italic: *text*
 bold: **text**  
 bold and italic: ***text***  
 >this is cedric<
->>how rae you<<
+>>how are you<<
 -item 1
   -sub item 1
--item 2
-  -sub item 2
--item 3
-  -sub item 3
-  
+
+
+
 
 
 
