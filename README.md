@@ -5,8 +5,11 @@
 ##### heading 5
 ###### heading 6   
 prince  
-favour
-italic: *text*
-bold: **text**
-bold & italic: ***text***
+favour  
+italic: *text*  
+bold: **text**  
+bold and italic: ***text***  
+
+
+
 
