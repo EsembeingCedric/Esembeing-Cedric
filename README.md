@@ -6,4 +6,7 @@
 ###### heading 6   
 prince  
 favour
+italic: *text*
+bold: **text**
+bold & italic: ***text***
 
