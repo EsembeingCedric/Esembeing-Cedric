@@ -16,6 +16,15 @@ bold and italic: ***text***
 - item 2
   - sub item 2
 "<h1>" i am a website developer "</h1>"
+```cmd
+  git clone <url>
+```
+```javascript
+  console.log ("hello")
+```
+
+
+
 
 
 
