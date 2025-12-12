@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> INTRODUCTION ABOUT MYSELF </title>
+    <title> PRESENTATION </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navbar -->
   <nav>
-    <h1 class="logo">MyPortfolio</h1>
+    <h1 class="logo">INTRODUCTION ABOUT MYSELF </h1>
     <ul>
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
@@ -22,15 +22,14 @@
   <!-- Hero Section -->
   <section id="home" class="hero">
     <h2>Hello, I'm <span> ESEMBEING CEDRIC </span></h2>
-      <p>I am a HND I student studying software engineering at the Yaounde International Business School (YIBS). My dream is to become the best website and mobile application developer, good UI/UX designer and a frontend developer. My desire in this field is to solve digital problems where ever I find myself.</p>
+      <p>I am a HND I student studying software engineering at the Yaounde International Business School (YIBS). </p>
     <p>Front-end Developer | Designer | Coder </p>
-    <button onclick="scrollToProjects()">See My Work</button>
   </section>
 
   <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p> My name is Esembeing cedric, a Student in YIBS studying SOFTWARE ENGINEERING. I and my group members joint head and came out with this portfolio </p>
+    <p> My name is Esembeing cedric, a Student in YIBS studying SOFTWARE ENGINEERING. My dream is to become the best website and mobile application developer, good UI/UX designer and a frontend developer. My desire in this field is to solve digital problems where ever I find myself. </p>
   </section>
 
   <!-- Projects Section -->
