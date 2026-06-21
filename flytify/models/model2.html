@@ -1,0 +1,222 @@
+<!-- ============================================ -->
+<!-- BROCHURE TEMPLATE 2 — Flytify               -->
+<!-- ============================================ -->
+<!--                                                 -->
+<!-- WHAT YOU WILL LEARN:                            -->
+<!--   - An alternative brochure layout               -->
+<!--   - Different colour placement                   -->
+<!--   - More advanced CSS techniques                 -->
+<!--                                                 -->
+<!-- YOUR TASK: Replace this entire file with        -->
+<!-- your own brochure design (different from        -->
+<!-- model1.html). Keep the {{PLACEHOLDER}} markers. -->
+<!--                                                 -->
+<!-- TIP: Make this one look completely different    -->
+<!-- from model1.html so users have a real choice.   -->
+<!-- Try a different layout: sidebar, cards,         -->
+<!-- full-bleed hero image, etc.                     -->
+<!-- ============================================ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTEMB</title>
+    <style>
+        /*
+         * TODO: Replace this with your own design.
+         * Try a completely different layout from model1.html.
+         */
+
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background: #fafafa;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        .brochure {
+            max-width: 210mm;
+            margin: 0 auto;
+            min-height: 297mm;
+            display: grid;
+            /* TODO: Try a different grid layout */
+            grid-template-columns: 1fr 2fr;
+        }
+
+        /* ─── SIDEBAR ─────────────────────────────────── */
+        .sidebar {
+            /* EDIT: Use your primary colour for the sidebar background */
+            background-color: {{PRIMARY_COLOR}};
+            color: #ffffff;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .sidebar .logo img {
+            max-width: 100%;
+            max-height: 100px;
+            margin-bottom: 20px;
+        }
+
+        .sidebar h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .sidebar .tagline {
+            font-size: 14px;
+            font-style: italic;
+            opacity: 0.9;
+            margin-bottom: 30px;
+        }
+
+        /* ─── MAIN CONTENT ────────────────────────────── */
+        .main-content {
+            padding: 30px;
+        }
+
+        .main-content h2 {
+            /* EDIT: Use your secondary colour for headings */
+            color: {{SECONDARY_COLOR}};
+            font-size: 20px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+
+        .main-content h2:first-child {
+            margin-top: 0;
+        }
+
+        .main-content p {
+            margin-bottom: 15px;
+        }
+
+        /* ─── CONTACT STRIP ───────────────────────────── */
+        .contact-strip {
+            margin-top: 20px;
+            padding: 15px;
+            /* EDIT: Use a light tint of your brand colour */
+            background-color: rgba(59, 130, 246, 0.1);  /* TODO: Replace with {{PRIMARY_COLOR}} at low opacity */
+            border-left: 4px solid {{PRIMARY_COLOR}};
+        }
+
+        .contact-strip p {
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        .contact-strip strong {
+            color: {{PRIMARY_COLOR}};
+        }
+
+        /* ─── FOOTER ──────────────────────────────────── */
+        .footer {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 15px;
+            font-size: 12px;
+            color: #888;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+
+    <!-- TODO: Add external fonts if desired -->
+</head>
+<body>
+
+    <div class="brochure">
+
+        <!-- ════════════════════════════════════════════ -->
+        <!-- SIDEBAR                                      -->
+        <!-- ════════════════════════════════════════════ -->
+        <!-- TODO: Redesign this sidebar -->
+
+        <div class="sidebar">
+            <div>
+                <div class="logo">
+                    <!-- TODO: Style the logo for the sidebar -->
+                    <img src="{{LOGO_PATH}}" alt="{{COMPANY_NAME}} logo">
+                </div>
+
+                <h1>ESEMBEING SMART TECHNOLOGY FOR ENGINEERING AND MODERN BUSINESS(ESTEMB)</h1>
+                <p class="tagline">{{TAGLINE}}</p>
+            </div>
+
+            <!-- TODO: Sidebar bottom content (contact, social links, etc.) -->
+            <div>
+                <p style="font-size: 13px; opacity: 0.8;">ESEMBEING CEDRIC FOSSEM</p>
+            </div>
+        </div>
+
+        <!-- ════════════════════════════════════════════ -->
+        <!-- MAIN CONTENT                                 -->
+        <!-- ════════════════════════════════════════════ -->
+        <!-- TODO: Replace with your own content -->
+
+        <div class="main-content">
+
+            <h2>Our Story</h2>
+            <p>
+                Esembeing Smart Technology for Enineering and Modern Business(ESTEMB) is a forward-thinking technology company 
+                dedicated to delivering innovative digital solutions for engineering and modern enterprises.
+                   We specialize in combining engineering principles with smart technologies to help busineeses improve efficiency, automate processes 
+                and embrace digital transormations.
+            </p>
+            <p>
+                We specialize in combining engineering principles with smart technologies to help busineeses improve efficiency, automate processes 
+                and embrace digital transormations.
+            </p>
+
+            <h2>Services</h2>
+            <p>Our main service at ESTEMB is providing smart digital transformation and engineering solutions</p>
+
+            <!-- TODO: Add a list or grid of services -->
+            <ul>
+                <li>Service 1: Engineering Solutions</li>
+                <li>Service 2: Systems development</li>
+                <li>Service 3: Technical training and capacity building</li>
+            </ul>
+
+            <h2>Why Choose Us</h2>
+            <p>
+                you will benefit from strong engineering and technical experise
+            </p>
+
+            <!-- TODO: Add testimonial quotes, case studies, etc. -->
+
+            <!-- ════════════════════════════════════════ -->
+            <!-- CONTACT                                   -->
+            <!-- ════════════════════════════════════════ -->
+
+            <div class="contact-strip">
+                <p><strong>Email:</strong>esembeingcedric925@gmail.com</p>
+                <p><strong>Phone:</strong>+237 680 10 85 07</p>
+                <!-- TODO: Add more contact details -->
+                <!-- <p><strong>[Web:]</strong> yourwebsite.com</p> -->
+            </div>
+
+        </div>
+
+        <!-- ════════════════════════════════════════════ -->
+        <!-- FOOTER                                       -->
+        <!-- ════════════════════════════════════════════ -->
+
+        <div class="footer">
+            <p>&copy; 2026 | ESEMBEING SMART TECHNOLOGY FOR ENGINEERING AND MODERN BUSINESS(ESTEMB) — All rights reserved</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
